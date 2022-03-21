@@ -3,9 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "PT Sans";
+}
 
 .container {
   max-width: 1200px;
-  width: 90%;
-  margin: auto;
+  width: 92%;
+  margin: 0 auto;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
 }
