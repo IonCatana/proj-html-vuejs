@@ -2,7 +2,7 @@
   <div id="special_moments">
     <div class="container">
       <div class="titolo text-center">
-        <span class="manatee">Corporate & Weddings</span>
+        <p class="manatee">Corporate & Weddings</p>
         <h1 class="daisy_bush">Baking Special Moments</h1>
       </div>
       <div class="cards">
@@ -50,19 +50,22 @@ export default {
   margin: 0 auto;
 }
 .titolo {
-  span {
+  p {
     text-transform: uppercase;
     font-size: 10px;
+    text-align: center;
   }
   h1 {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
   }
 }
 .cards {
   padding-top: 40px;
   display: flex;
+  justify-content: space-between;
   gap: 50px;
   width: 100%;
   .card {
@@ -73,6 +76,7 @@ export default {
 }
 img {
   width: 100%;
+  height: 100%;
 }
 .info {
   visibility: hidden;
@@ -86,29 +90,40 @@ img {
   overflow: auto;
   background-color: rgba($color: #000000, $alpha: 0.2);
 }
-.hover_text {  
+.hover_text {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  p{
+  p {
     text-transform: uppercase;
-    font-size: 10px;    
+    font-size: 10px;
+    text-align: center;
   }
-  h1{
+  h1 {
+    padding: 10px 0px;
+    margin-bottom: 10px;
     font-size: 32px;
     font-weight: 600;
     padding-bottom: 10px;
+    text-align: center;
   }
-  .btn{
+  .btn {
     background-color: #5b2ca2;
-    color: #ffffff;
-    padding: 8px 20px;
+    color: #ffffff;    
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
   }
-  
 }
-.card:hover .info{
+.card:hover .info {
   visibility: visible;
-  cursor: pointer;  
+  cursor: pointer;
 }
 </style>

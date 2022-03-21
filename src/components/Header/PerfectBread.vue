@@ -25,11 +25,13 @@ export default {
 .header_container {
   padding-top: 10rem;
   width: 290px;
-  h1{
+  h1 {
+    padding-top: 10px;
     font-size: 38px;
     font-weight: 900;
   }
-  p{
+  p {
+    padding: 20px 0px;
     font-size: 10.9px;
   }
   span {
@@ -41,9 +43,10 @@ export default {
   font-size: 12px;
   color: #5b2ca2;
   background-color: #ffffff;
-  padding: 8px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
-  &:hover{
+  border: none;
+  &:hover {
     background-color: #5b2ca2;
     color: #ffffff;
   }

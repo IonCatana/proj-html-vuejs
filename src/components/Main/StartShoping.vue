@@ -2,7 +2,7 @@
   <div id="start_shoping">
     <div class="container">
       <div class="row">
-        <div class="col-4 ">
+        <div class="col-4">
           <span class="manatee">Our Products</span>
           <p class="daisy_bush">
             All our delectable pastries are backed fresh in our Kitchen very
@@ -15,10 +15,10 @@
             <div class="col-6">
               <i class="fa-solid fa-chevron-left"></i>
               <div class="info text-center">
-                <div>
+                <div class="spec_titolo">
                   <h2>Choco Chips Cookies</h2>
                   <p>Coockies, Pastries</p>
-                  <span>$19.00 $39.00</span>
+                  <p class="prezzo">$19.00 $39.00</p >
                 </div>
               </div>
               <img
@@ -29,10 +29,10 @@
             <div class="col-6">
               <i class="fa-solid fa-chevron-right"></i>
               <div class="info text-center">
-                <div>
+                <div class="spec_titolo">
                   <h2>Strawberry Jam Cookies</h2>
                   <p>Coockies, Pastries</p>
-                  <span>$24.00 $62.00</span>
+                  <p class="prezzo">$24.00 $62.00</p >
                 </div>
               </div>
               <img
@@ -59,15 +59,13 @@ export default {
   width: 1200px;
   margin: 0 auto;
 }
-
 .col-4 {
-  padding: 0;
-  padding-right: 50px;
   span {
     font-size: 10px;
     text-transform: uppercase;
   }
   p {
+    padding: 20px 0;
     font-size: 23px;
     font-weight: 700;
   }
@@ -76,7 +74,9 @@ export default {
     margin-top: 20px;
     color: #ffffff;
     background-color: #5b2ca2;
-    padding: 5px 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
     &:hover {
       background-color: #ffffff;
       color: #5b2ca2;
@@ -86,17 +86,18 @@ export default {
 .col-6 {
   position: relative;
   width: 370px;
-  padding: 0;
   img {
     width: 100%;
+    height: 100%;
   }
 }
 .col-6:hover .info {
-  visibility: visible;  
+  visibility: visible;
   cursor: pointer;
 }
 .row {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
 }
 .fa-chevron-left {
@@ -106,7 +107,7 @@ export default {
   left: 9px;
   transform: translate(-50%, -50%);
   background-color: #bda2f3;
-  color: #ffffff;
+  color: #050505;
   font-size: 9px;
   padding: 15px 6px;
 }
@@ -133,15 +134,20 @@ export default {
   overflow: auto;
   background-color: rgba($color: #000000, $alpha: 0.2);
 }
-h2 {
-  font-size: 21px;
-  font-weight: 600;
-}
-p {
-  font-size: 13px;
-}
-span {
-  font-size: 20px;
-  font-weight: 600;
+.spec_titolo {
+  h2 {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+  }
+  p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .prezzo {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
 }
 </style>
