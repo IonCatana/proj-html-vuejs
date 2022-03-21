@@ -3,6 +3,7 @@
     <StartShoping />
     <SpecialMoments />
     <AllProducts />
+    <HavingMind />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import StartShoping from "./StartShoping.vue";
 import SpecialMoments from "./SpecialMoments.vue";
 import AllProducts from "./AllProducts.vue";
+import HavingMind from './HavingMind.vue'
 export default {
   name: "MyMain",
   components: {
     StartShoping,
     SpecialMoments,
     AllProducts,
+    HavingMind,
   },
 };
 </script>

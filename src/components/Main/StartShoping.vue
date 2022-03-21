@@ -107,7 +107,7 @@ export default {
   left: 9px;
   transform: translate(-50%, -50%);
   background-color: #bda2f3;
-  color: #050505;
+  color: #ffffff;
   font-size: 9px;
   padding: 15px 6px;
 }
