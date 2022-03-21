@@ -40,7 +40,7 @@ export default {
 .btn {
   color: #5b2ca2;
   background-color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 8px 20px;
+  border-radius: 5px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="header_nav_bar">
     <div class="logo">
-      <img src="../assets/img/avada-bakery-logo.png" alt="" />
+      <img src="../../assets/img/avada-bakery-logo.png" alt="" />
     </div>
     <div class="list">
       <ul>
@@ -9,7 +9,7 @@
           <a class="daisy_bush" :href="link.href">{{ link.text }}</a>
         </li>
         <li>
-          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a class="daisy_bush" href="#"><i class="fas fa-shopping-cart"></i></a>
         </li>
       </ul>
     </div>

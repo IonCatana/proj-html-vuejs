@@ -19,7 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 #my_header {
-  background-image: url("../assets/img/hero-header-bakery.jpg");
+  background-image: url("../../assets/img/hero-header-bakery.jpg");
   object-fit: contain;
   background-repeat: no-repeat;
   background-size: 1200px 600px;     
