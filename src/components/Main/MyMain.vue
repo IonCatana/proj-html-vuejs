@@ -1,23 +1,18 @@
 <template>
   <div id="my_main">
-    <div class="container">
-      ciao
-    </div>
+    <StartShoping />    
   </div>
 </template>
 
 <script>
+import StartShoping from "./StartShoping.vue"
   export default {
-    
+    name: 'MyMain',
+    components: {
+      StartShoping,
+    }
   }
 </script>
 
 <style lang="scss" scoped>
-#my_main{
-  width: 1200px;
-  margin: 0 auto;
-}
-.container{
-  border: 1px solid red;
-}
 </style>

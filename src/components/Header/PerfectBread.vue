@@ -38,9 +38,14 @@ export default {
   }
 }
 .btn {
+  font-size: 12px;
   color: #5b2ca2;
   background-color: #ffffff;
   padding: 8px 20px;
   border-radius: 5px;
+  &:hover{
+    background-color: #5b2ca2;
+    color: #ffffff;
+  }
 }
 </style>
