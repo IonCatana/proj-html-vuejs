@@ -1,24 +1,102 @@
 <template>
   <div id="start_baking">
     <div class="container">
-
+      <div class="cards">
+        <div class="card">
+          <div class="thumb_nail">
+            <div class="flex">
+              <h1>We Start Baking</h1>
+              <span>02</span>
+            </div>
+            <div class="description">
+              <span class="manatee"> Sweet & Delicious</span>
+              <p>
+                Cras consequat lectus vestibulum tortor pulvinar, quis eusmod
+                nisl varius. Ut eu laoreet ex. Aliquam erat volutpat. Nullam
+                quis sagittis nibh. Morbi consectetur ultricies ante ac conque.
+                Donec lorem erat, finibus in velit placerat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="description_bakery">
+            <span class="manatee">Don't Just Take Our Word For It</span>
+            <p class="daisy_bush">
+              "Finally found an alternative to the mass produced products.
+              Something that incorporates real organic ingredients, nutrient
+              dense wellness while promoting sustainability and activity."
+            </p>
+            <span class="manatee">Rachel Cooper, Founder</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {};
 </script>
 
 <style lang="scss" scoped>
-#start_baking{
+#start_baking {
+  padding-top: 20px;
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid red;
 }
-.container{  
-  border: 1px solid blue;
+.cards {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  .card {
+    width: 50%;    
+  }
+  .thumb_nail {
+    background-image: url("../../assets/img/bakery-process-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    padding: 30px;
+    .description {
+      width: 50%;
+      p {
+        font-size: 11px;
+        color: #ffffff;
+      }
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        color: #ffffff;
+        font-size: 32px;
+      }
+      span {
+        font-size: 60px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.manatee {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.description_bakery {
+  background-color: #f0ecf1;
+  padding: 30px;
+  height: 450px;
+  p{
+    padding: 20px 0;
+    font-size: 35px;
+  }
 }
 </style>

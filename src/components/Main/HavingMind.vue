@@ -54,7 +54,7 @@ export default {};
   }
   span {
     color: #ffffff;
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 .description{
