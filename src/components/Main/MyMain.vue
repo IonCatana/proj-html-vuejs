@@ -8,6 +8,7 @@
     <DeliveringHome />
     <OurBakeries />
     <FollowUs />
+    <ShopNow />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import StartBaking from "./StartBaking.vue";
 import DeliveringHome from "./DeliveringHome.vue";
 import OurBakeries from "./OurBakeries.vue";
 import FollowUs from "./FolowUs.vue";
+import ShopNow from "./ShopNow.vue";
 export default {
   name: "MyMain",
   components: {
@@ -31,6 +33,7 @@ export default {
     DeliveringHome,
     OurBakeries,
     FollowUs,
+    ShopNow,
   },
 };
 </script>

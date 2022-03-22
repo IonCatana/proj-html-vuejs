@@ -23,10 +23,10 @@
         <div class="card2">
           <div class="share share2">
             <div class="card4">
-              <img src="../../assets/img/social-5.jpg" alt="">
+              <img src="../../assets/img/social-5.jpg" alt="" />
             </div>
             <div class="card5">
-              <img src="../../assets/img/social-4.jpg" alt="">
+              <img src="../../assets/img/social-4.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -80,23 +80,23 @@ export default {};
             font-size: 25px;
           }
         }
-        .share2{
+        .share2 {
           background-color: white;
           width: 100%;
-          height: 100%;          
+          height: 100%;
           display: flex;
           gap: 20px;
-          img{
+          img {
             width: 100%;
             height: 100%;
           }
-          .card4{
+          .card4 {
             width: 50%;
-            height: 100%;            
+            height: 100%;
           }
-          .card5{
+          .card5 {
             width: 50%;
-            height: 100%;             
+            height: 100%;
           }
         }
         button {
