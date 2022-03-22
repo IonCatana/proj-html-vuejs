@@ -134,7 +134,7 @@ export default {};
     }
   }
 }
-.bakeri_info {  
+.bakeri_info {
   width: 100%;
   height: 100px;
   display: flex;
