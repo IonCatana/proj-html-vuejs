@@ -1,11 +1,16 @@
 <template>
-  <div id="my_footer"></div>
+  <div id="my_footer">
+    <FooterNavBar />
+  </div>
 </template>
 
 <script>
+import FooterNavBar from "./FooterNavBar.vue";
 export default {
   name: "MyFooter",
-  components: {},
+  components: {
+    FooterNavBar,
+  },
 };
 </script>
 
