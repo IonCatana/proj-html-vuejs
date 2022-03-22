@@ -6,6 +6,7 @@
     <HavingMind />
     <StartBaking />
     <DeliveringHome />
+    <OurBakeries />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import AllProducts from "./AllProducts.vue";
 import HavingMind from './HavingMind.vue'
 import StartBaking from "./StartBaking.vue"
 import DeliveringHome from './DeliveringHome.vue'
+import OurBakeries from './OurBakeries.vue'
 export default {
   name: "MyMain",
   components: {
@@ -25,6 +27,7 @@ export default {
     HavingMind,
     StartBaking,
     DeliveringHome,
+    OurBakeries,
   },
 };
 </script>
