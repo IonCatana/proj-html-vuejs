@@ -32,20 +32,23 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+#having_mind{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
 .container {  
   background-image: url("../../assets/img/bakery-process-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 450px;
-  height: 600px;
-  margin: 0 auto;
-  padding-top: 120px;
+  background-repeat: no-repeat;  
+  background-size: 100% 450px;  
+  margin: 0 auto;  
 }
 .thumb_nail {
   display: flex;
   align-items: center;
   justify-content: space-between;  
   h1 {
+    padding-top: 30px;
     color: #ffffff;
     font-weight: 600;
   }
