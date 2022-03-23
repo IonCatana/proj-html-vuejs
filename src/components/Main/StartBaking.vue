@@ -49,15 +49,15 @@ export default {};
   display: flex;
   gap: 20px;
   width: 100%;
-  
   .card {
     width: 50%;
+    height: 100%;
   }
   .thumb_nail {
     background-image: url("../../assets/img/bakery-process-2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 450px;
-    margin: 0 auto;
+    background-color: rgba(5, 5, 5, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,7 +66,7 @@ export default {};
     padding: 30px;
     .description {
       width: 50%;
-      span{
+      span {
         font-size: 9px;
       }
       p {
@@ -77,7 +77,6 @@ export default {};
         padding-bottom: 20px;
       }
     }
-
     .flex {
       display: flex;
       justify-content: space-between;
@@ -97,16 +96,16 @@ export default {};
   text-transform: uppercase;
   font-size: 9px;
 }
-.no_uppercase{
+.no_uppercase {
   text-transform: capitalize;
 }
 .description_bakery {
   background-color: #f0ecf1;
-  padding: 30px;
+  padding: 50px 80px 50px 50px;
   height: 450px;
   p {
-    padding: 20px 0;
-    font-size: 35px;
+    padding: 10px 0;
+    font-size: 30px;
     font-weight: 600;
   }
 }

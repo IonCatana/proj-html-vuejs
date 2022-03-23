@@ -44,6 +44,7 @@ export default {};
   background-repeat: no-repeat;
   background-size: 100% 450px;
   margin: 0 auto;
+  height: 450px;
 }
 .thumb_nail {
   display: flex;
