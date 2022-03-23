@@ -52,12 +52,12 @@ export default {
 .titolo {
   p {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 9px;
     text-align: center;
   }
   h1 {
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
     text-align: center;
   }
@@ -97,7 +97,7 @@ img {
   align-items: center;
   p {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 9px;
     text-align: center;
   }
   h1 {

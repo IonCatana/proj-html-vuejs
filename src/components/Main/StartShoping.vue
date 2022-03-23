@@ -61,16 +61,16 @@ export default {
 }
 .col-4 {
   span {
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
   }
   p {
     padding: 20px 0;
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 700;
   }
   .btn {
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 20px;
     color: #ffffff;
     background-color: #5b2ca2;

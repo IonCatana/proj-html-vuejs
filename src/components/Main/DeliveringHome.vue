@@ -1,11 +1,11 @@
 <template>
   <div id="delivering_home">
     <div class="container">
-      <div class="thumb_nail">
+      <div class="bg_rgba">
+        <div class="thumb_nail">
         <div>
           <h1>
-            Tell us what have in <br />
-            mind
+            Delivered to your home
           </h1>
         </div>
         <div>
@@ -23,6 +23,8 @@
           </p>
         </div>
       </div>
+      </div>
+      
     </div>
   </div>
 </template>
@@ -49,11 +51,11 @@ export default {};
   justify-content: space-between;  
   h1 {
     padding-top: 30px;
-    color: #ffffff;
+    color: #dfdede;
     font-weight: 600;
   }
   span {
-    color: #ffffff;
+    color: #dfdede;
     font-size: 60px;
   }
 }
@@ -61,18 +63,20 @@ export default {};
   width: 420px;
 }
 .flex{  
+  padding-bottom: 30px;
   height: 280px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   span{
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
   }
   p{
     padding: 15px 0px;
-    color: #ffffff;
+    color: #dfdede;
     font-weight: 600;
+    font-size: 16px;
   }
 }
 </style>

@@ -53,7 +53,7 @@ export default {};
       display: flex;
       gap: 20px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       img {
         width: 100%;
         height: 100%;
@@ -72,7 +72,7 @@ export default {};
         .share {
           text-align: center;
           p {
-            font-size: 10px;
+            font-size: 9px;
             text-transform: uppercase;
           }
           h1 {
@@ -102,7 +102,7 @@ export default {};
         button {
           border: none;
           border-radius: 5px;
-          font-size: 12px;
+          font-size: 10px;
           font-weight: 600;
           color: #ffffff;
           background-color: #5b2ca2;

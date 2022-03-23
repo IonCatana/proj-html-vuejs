@@ -2,15 +2,18 @@
   <div id="all_products">
     <div class="container">
       <div class="shop_all_products">
-        <div class="">
-          <h1 class="daisy_bush">
-            Find a freshly baked product perfect for you
-          </h1>
-          <p class="manatee">
-            Integer a nabh vitae ex porttitor rutrum et ut velit. Etiam ac felis
-            at leo feugiat placerat. Sed ac nulla id orci tempor convallis sed.
-          </p>
-          <button class="btn">Shop All Products</button>
+        <div class="description">
+          <div>
+            <h1 class="daisy_bush">
+              Find a freshly baked product perfect for you
+            </h1>
+            <p class="manatee">
+              Integer a nabh vitae ex porttitor rutrum et ut velit. Etiam ac
+              felis at leo feugiat placerat. Sed ac nulla id orci tempor
+              convallis sed.
+            </p>
+            <button class="btn">Shop All Products</button>
+          </div>
         </div>
       </div>
       <div class="cards">
@@ -21,7 +24,10 @@
           <p class="prezzo daisy_bush">$19.00 - $39.00</p>
         </div>
         <div class="card">
-          <img src="../../assets/img/strawberry-jam-cookies-400x510.jpg" alt="" />
+          <img
+            src="../../assets/img/strawberry-jam-cookies-400x510.jpg"
+            alt=""
+          />
           <h2 class="daisy_bush">Strawberry Jam Cookies</h2>
           <p class="prezzo daisy_bush">$24.00 - $62.00</p>
         </div>
@@ -51,9 +57,9 @@ export default {};
   display: flex;
   gap: 10px;
   .card {
-    position: relative;    
+    position: relative;
     width: calc(100% / 4);
-    
+
     h2 {
       text-align: center;
       font-size: 16px;
@@ -65,7 +71,6 @@ export default {};
     }
     img {
       width: 100%;
-      
     }
   }
 }
@@ -82,19 +87,29 @@ export default {};
     display: flex;
     justify-content: center;
     align-items: center;
-    h1 {
-      text-align: center;
-    }
-    p {
-      text-align: center;
-      padding: 15px 0px;
+    .description {
+      display: flex;
+      align-items: center;
+      padding-bottom: 40px;
+      height: 100%;
+      margin-right: 40px;
+      h1 {
+        text-align: center;
+        font-size: 26px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        padding: 20px 0px;
+      }
     }
   }
   .btn {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 20px;
     color: #ffffff;
     background-color: #5b2ca2;
@@ -106,7 +121,6 @@ export default {};
   }
 }
 .fa-chevron-left {
-  
   position: absolute;
   top: 50%;
   left: 9px;

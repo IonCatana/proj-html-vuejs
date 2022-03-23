@@ -35,7 +35,7 @@ export default {};
   width: 55%;
   height: 100%;
   display: flex;
-  
+  padding-bottom: 25px;
   align-items: flex-end;
   p {
     text-transform: uppercase;
@@ -45,7 +45,7 @@ export default {};
     padding: 20px 0;
     color: #ffffff;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 24px;
   }
   button {
     margin: 40px 0;
@@ -54,6 +54,7 @@ export default {};
     border-radius: 5px;
     background-color: white;
     color: #5b2ca2;
+    font-size: 10px;
   }
 }
 </style>

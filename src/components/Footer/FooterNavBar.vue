@@ -36,12 +36,14 @@
               type="email"
               placeholder="Enter email address*"
             />
-            <button>Subsribe</button>
+            <button>Subscribe</button>
           </div>
           <div class="icons">
             <ul>
               <li v-for="(el, i) in icons" :key="i">
-                <a class="daisy_bush" :href="el.href"><i :class= "el.icon" i/></a>
+                <a class="daisy_bush" :href="el.href"
+                  ><i :class="el.icon" i
+                /></a>
               </li>
             </ul>
           </div>
@@ -122,7 +124,7 @@ export default {
       width: 50%;
       height: 100%;
       .logo {
-        width: 80px;
+        width: 100px;
         img {
           width: 100%;
         }
@@ -135,12 +137,11 @@ export default {
 }
 .list ul {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   font-size: 10px;
   a {
     color: #5b2ca2;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-size: 9px;
   }
   li:last-child {
     display: flex;
@@ -185,8 +186,10 @@ export default {
       border: none;
       border: 1px solid #efeff0;
       border-radius: 5px;
+      font-size: 10px;
     }
     button {
+      font-size: 10px;
       padding: 10px 20px;
       border: none;
       border-radius: 5px;
@@ -201,6 +204,9 @@ export default {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
+    a {
+      font-size: 12px;
+    }
   }
 }
 </style>

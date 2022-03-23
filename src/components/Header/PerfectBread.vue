@@ -32,15 +32,16 @@ export default {
   }
   p {
     padding: 20px 0px;
-    font-size: 10.9px;
+    font-size: 11.5px;
+    line-height: 20px;
   }
   span {
-    font-size: 10px;
+    font-size: 9px;
     text-transform: uppercase;
   }
 }
 .btn {
-  font-size: 12px;
+  font-size: 10px;
   color: #5b2ca2;
   background-color: #ffffff;
   padding: 10px 20px;

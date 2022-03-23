@@ -69,7 +69,7 @@ export default {
   align-items: center;
   padding: 0 10px;
   .logo {
-    width: 80px;
+    width: 100px;
   }
 }
 ul {
@@ -84,7 +84,7 @@ ul li:first-child {
 }
 li a{
   text-transform: uppercase;
-  font-size: 9px;
+  font-size: 10px;
 }
 img {
   width: 100%;

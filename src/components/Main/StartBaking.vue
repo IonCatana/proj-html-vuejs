@@ -27,7 +27,7 @@
               Something that incorporates real organic ingredients, nutrient
               dense wellness while promoting sustainability and activity."
             </p>
-            <span class="manatee">Rachel Cooper, Founder</span>
+            <span class="manatee no_uppercase">Rachel Cooper, Founder</span>
           </div>
         </div>
       </div>
@@ -49,8 +49,9 @@ export default {};
   display: flex;
   gap: 20px;
   width: 100%;
+  
   .card {
-    width: 50%;    
+    width: 50%;
   }
   .thumb_nail {
     background-image: url("../../assets/img/bakery-process-2.jpg");
@@ -65,9 +66,15 @@ export default {};
     padding: 30px;
     .description {
       width: 50%;
+      span{
+        font-size: 9px;
+      }
       p {
-        font-size: 11px;
+        padding-top: 10px;
+        font-size: 12.7px;
+        line-height: 20px;
         color: #ffffff;
+        padding-bottom: 20px;
       }
     }
 
@@ -88,15 +95,19 @@ export default {};
 }
 .manatee {
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 9px;
+}
+.no_uppercase{
+  text-transform: capitalize;
 }
 .description_bakery {
   background-color: #f0ecf1;
   padding: 30px;
   height: 450px;
-  p{
+  p {
     padding: 20px 0;
     font-size: 35px;
+    font-weight: 600;
   }
 }
 </style>
