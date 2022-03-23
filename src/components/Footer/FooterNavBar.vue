@@ -27,6 +27,26 @@
           </div>
         </div>
       </div>
+      <div class="subscribe_email">
+        <div>
+          <h1 class="daisy_bush">Subsribe to our Newsletter</h1>
+          <div class="email">
+            <input
+              id="emailAddress"
+              type="email"
+              placeholder="Enter email address*"
+            />
+            <button>Subsribe</button>
+          </div>
+          <div class="icons">
+            <ul>
+              <li v-for="(el, i) in icons" :key="i">
+                <a class="daisy_bush" :href="el.href"><i :class= "el.icon" i/></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -66,6 +86,24 @@ export default {
           href: "#",
         },
       ],
+      icons: [
+        {
+          icon: "fab fa-instagram",
+          href: "#",
+        },
+        {
+          icon: "fab fa-twitter",
+          href: "#",
+        },
+        {
+          icon: "fab fa-facebook-f",
+          href: "#",
+        },
+        {
+          icon: "fab fa-pinterest-p",
+          href: "#",
+        },
+      ],
     };
   },
 };
@@ -75,13 +113,14 @@ export default {
 #footer_nav_bar {
   width: 1200px;
   margin: 0 auto;
-  height: 250px;  
+  height: 250px;
   padding-top: 40px;
   .container {
-    height: 100%;    
+    display: flex;
+    height: 100%;
     .avada_container {
       width: 50%;
-      height: 100%;      
+      height: 100%;
       .logo {
         width: 80px;
         img {
@@ -119,10 +158,49 @@ export default {
     font-size: 6px;
   }
 }
-.copyright{
+.copyright {
   padding-top: 60px;
-  p{
+  p {
     font-size: 8px;
+  }
+}
+.subscribe_email {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+  h1 {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: right;
+    padding-bottom: 20px;
+  }
+  .email {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    input {
+      width: 300px;
+      padding: 10px 20px;
+      border: none;
+      border: 1px solid #efeff0;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      background-color: #5b2ca2;
+    }
+  }
+}
+.icons {
+  ul {
+    padding-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
   }
 }
 </style>

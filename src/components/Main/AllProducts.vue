@@ -32,7 +32,7 @@
         </div>
         <div class="card">
           <i class="fa-solid fa-chevron-right"></i>
-          <img src="../../assets/img/choco-chip-cookies-400x510.jpg" alt="" />
+          <img src="../../assets/img/perfect-macarons-400x510.jpg" alt="" />
           <h2 class="daisy_bush">Perfect Macarons</h2>
           <p class="prezzo daisy_bush">$18.00 - $52.00</p>
         </div>
