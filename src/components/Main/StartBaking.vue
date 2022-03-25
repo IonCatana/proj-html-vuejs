@@ -2,20 +2,22 @@
   <div id="start_baking">
     <div class="container">
       <div class="cards">
-        <div class="card">
-          <div class="thumb_nail">
-            <div class="flex">
-              <h1>We Start Baking</h1>
-              <span>02</span>
-            </div>
-            <div class="description">
-              <span class="manatee"> Sweet & Delicious</span>
-              <p>
-                Cras consequat lectus vestibulum tortor pulvinar, quis eusmod
-                nisl varius. Ut eu laoreet ex. Aliquam erat volutpat. Nullam
-                quis sagittis nibh. Morbi consectetur ultricies ante ac conque.
-                Donec lorem erat, finibus in velit placerat.
-              </p>
+        <div class="card bg_img">
+          <div class="bg_rgba">
+            <div class="thumb_nail">
+              <div class="flex">
+                <h1>We Start Baking</h1>
+                <span>02</span>
+              </div>
+              <div class="description">
+                <span class="manatee"> Sweet & Delicious</span>
+                <p>
+                  Cras consequat lectus vestibulum tortor pulvinar, quis eusmod
+                  nisl varius. Ut eu laoreet ex. Aliquam erat volutpat. Nullam
+                  quis sagittis nibh. Morbi consectetur ultricies ante ac
+                  conque. Donec lorem erat, finibus in velit placerat.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -45,6 +47,11 @@ export default {};
   width: 1200px;
   margin: 0 auto;
 }
+.bg_img {
+  background-image: url("../../assets/img/bakery-process-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+}
 .cards {
   display: flex;
   gap: 20px;
@@ -54,10 +61,6 @@ export default {};
     height: 100%;
   }
   .thumb_nail {
-    background-image: url("../../assets/img/bakery-process-2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 450px;
-    background-color: rgba(5, 5, 5, 0.4);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

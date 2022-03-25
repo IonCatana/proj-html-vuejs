@@ -57,7 +57,7 @@ export default {};
     font-size: 36px;
   }
   span {
-    color: #cccccc;
+    color: #ffffff;
     font-size: 60px;
   }
 }

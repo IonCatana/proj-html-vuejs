@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg_rgba {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.4);
+}
+
+body {
+  font-family: "PT Sans";
+}
+
+.thumb_nail {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 92%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=common.css.map */
